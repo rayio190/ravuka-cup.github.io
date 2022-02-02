@@ -1,0 +1,121 @@
+body {
+  font-family: "Avenir Next";
+}
+
+.sample {
+  width: "50px";
+  height: "50px";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 200px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 20px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* contact-formのpadding-topを100pxにしてください */
+.contact-form{
+  padding-top: 100px;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.top-banner{
+	display: flex;
+	flex-wrap:wrap;
+  
+}
+.top-banner li {
+	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+  
+}
+.top-banner li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+	border:solid 1px #ccc; /*←画像を1pxのグレーの枠線で囲む指定の場合*/
+}
+
+.top-wrapper{
+  padding: 180px 0 70px 0;
+  background-image: url("haikei.png");
+  background-size: cover;
+  color: white;
+
+}
+
+h2{
+color:black
+}
