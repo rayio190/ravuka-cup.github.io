@@ -108,11 +108,11 @@ li {
 }
 
 .top-wrapper{
-  padding: 180px 0 70px 0;
-  background-image: url("haikei.png");
-  background-size: cover;
-  color: white;
-
+	padding: 180px 0 100px 0;
+	background-image: url(tophaikei.png);
+	background-size: cover;
+	color: white;
+	text-align: center;
 }
 
 h2{
@@ -125,4 +125,10 @@ color:black
     background-size: cover;
     width: 100%;
     height: 100vh;
+}
+
+.container{
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
 }
