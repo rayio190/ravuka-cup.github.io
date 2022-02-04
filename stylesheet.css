@@ -119,8 +119,6 @@ li {
 
 .haikei{
 	background-img("mainhaikei.png");
-	backgroud-size: cover;
-	text-align: center;
 
 h2{
 color:black
