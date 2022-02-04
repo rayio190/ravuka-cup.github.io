@@ -1,6 +1,7 @@
 body {
   font-family: "Avenir Next";
   text-align: center;
+  background-image: url("mainhaikei.png");
 	
 }
 
@@ -116,9 +117,6 @@ li {
 	color: white;
 	text-align: center;
 }
-
-.haikei{
-	background-img("mainhaikei.png");
 
 h2{
 color:black
