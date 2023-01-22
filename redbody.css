@@ -1,6 +1,6 @@
  @charset "UTF-8";
 body{
-background: linear-gradient(180deg,#dc143c 0%,#dc143c 510px,#dcdcdc 510px,#dcdcdc 500%);
+background: linear-gradient(180deg,#dc143c 0% 50% , #dcdcdc 50% 100%);
 }
 
 .topic:hover{
