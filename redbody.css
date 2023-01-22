@@ -1,0 +1,9 @@
+ @charset "UTF-8";
+body{
+background: linear-gradient(180deg,#dc143c 0%,#dc143c 510px,#dcdcdc 510px,#dcdcdc 500%);
+}
+
+.topic:hover{
+background-color: #dc143c;
+box-shadow      : 6px 6px 3px #666666;
+}
